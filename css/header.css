@@ -1,0 +1,40 @@
+.header {
+
+
+    box-shadow: 0 0 100px 0 rgb(0, 0, 0, 0.4);
+}
+
+.header_wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+
+}
+
+.header_logo {
+    width: 35px;
+    height: 35px;
+    background: var(--pink);
+    border-radius: 50%
+}
+
+.header_btn {
+    display: flex;
+    gap: 20px;
+}
+
+.header_btn a:nth-child(1) {
+    padding: 8px 20px;
+    background: var(--pink);
+    color: white;
+    border-radius: 5px;
+}
+
+.header_btn a:nth-child(2) {
+    padding: 8px 20px;
+
+    color: var(--pink);
+    border-radius: 5px;
+    border: 1px solid var(--pink);
+}
